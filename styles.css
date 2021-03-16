@@ -1,0 +1,35 @@
+*, *::before, *::after{
+    background-color: #21262d;
+    font-style: normal;
+    font-family: sans-serif;
+    color: white;
+    margin: auto;
+    width: 750px;
+}
+
+.topnav {
+    overflow: hidden;
+  }
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 50px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #27d545;
+    color: white;
+  }
