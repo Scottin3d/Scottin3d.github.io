@@ -49,19 +49,20 @@
   }
 
   .post{
-   
-    margin: auto;
+    margin-bottom: 100px;
   }
 
   .img{
       float: left;
       width: 20%;
+      margin-bottom: 100px;
   }
   
   .main{
     float: right;
     width: 55%;
     margin-right: 100px;
+    margin-bottom: 100px;
   }
 
   /*In-text images*/
@@ -74,7 +75,6 @@
 
   .footer {
     position: fixed;
-    margin: auto;
     left: 0;
     bottom: 0;
     width: 100%;
