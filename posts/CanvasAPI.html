@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+    <body>
+        <div class="topnav">
+            <br>
+            <a href="../index.html">Home</a>&nbsp;&nbsp;&nbsp;
+            <a class="active" href="../About.html">About</a>&nbsp;&nbsp;&nbsp;
+            <a href="../Resume.html">Resume</a>&nbsp;&nbsp;&nbsp;
+            <a class="icon" href="https://www.linkedin.com/in/scottin3d/"><img src="../src/linkedin.png" target="_blank" alt="Connect with me on LinkedIn" style="width: 25px; height: 25px;"></a>&nbsp;&nbsp;&nbsp;
+            <a class="icon" href="https://github.com/scottin3d"><img src="../src/gitAlt.png" target="_blank" alt="Check out my projects on Git" style="width: 25px; height: 25px; "></a>&nbsp;&nbsp;&nbsp;
+        </div>
+
+        <div class="title">
+            Class Project - UI Canvas API for gEngine.
+        </div>
+
+        <div class="post">
+            <h2>The Project</h2>
+            <p>
+            The gEngine was built to study the technical fundamentals and the implementation of a 2D game engine from two important aspects: programmability and maintainability.  
+            Relevant concepts from software engineering, computer graphics, mathematics, physics, user interface, and game development will be presented in the context of game engine architecture, world coordinate system specification, object behaviors and interactions, camera manipulations, illumination, and game physics.  
+            </p><br>
+
+            <p>
+            This project was the final group project for CSS452 where we needed to develope and API for a feature that gEngine lacked.  My group chose to implement a user interface canvas.   
+            The UI Canvas API provides centralized support for the game designer to access UI controls such as buttons, sliders, toggles, ect.  
+            <br><br>
+            Currently in gEngine, ‘UI’ objects need to be created using renderables and would need new individual behaviors for each different type of object.  
+            Our UI Canvas API allows for a modular and easy way to combine all UI into one simple package.  
+            </p><br>
+
+            <h2>The API</h2>
+            <p>
+            A UI canvas is an overlay of the main document with objects that display information and allow the user to interact with objects in the scene with out explicitly referencing the object themselves. It requires no arguements.  
+            Currently, the UI Canvas API supports four (4) elements: Buttob, Slider, Toggle, Dropwdown.  
+            <br><br>
+            Aditionally, we needed to creating an event-listener system to create properly functioning UI elements.  
+            UI Events are a special kind of multicast delegate that can only be invoked from within the class where they are declared (the publisher class). If other classes subscribe to the event, their event handler methods will be called when the publisher class raises the event.
+            </p><br>
+
+            <h2>Project Links</h2>
+            <p>
+            API Documentation: <a href="https://scottin3d.github.io/CanvasAPI/">here</a>.
+            <br><br>
+            Repository: <a href="https://github.com/Scottin3d/CanvasAPI">here</a>.
+            <br><br>
+            Demo of the API: <a href="https://scottin3d.github.io/CanvasDemo/">here</a>.
+            </p><br>
+        </div>
+
+        <div class="footer">
+            <hr style="width:auto; text-align:left; margin-left:0">
+            <br>
+            Thank you for visiting.  Click <a href="mailto:scottin3d@gmail.com">here</a> to shoot me an email.
+            <br>
+            <br>
+        </div>
+        
+        
+    </body>
+</html>
