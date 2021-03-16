@@ -8,6 +8,8 @@
 }
 
 .topnav {
+    position: fixed;
+    top: 0;
     overflow: hidden;
   }
 /* Style the links inside the navigation bar */
@@ -39,11 +41,15 @@
   }
 
   .title{
+    margin-top: 100px;
+    margin-bottom: 50px;
     text-align: center;
-    font-size: 35px;
+    font-size: 55px;
+    text-decoration: underline;
   }
 
   .post{
+   
     margin: auto;
   }
 
