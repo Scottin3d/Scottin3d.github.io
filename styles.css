@@ -4,13 +4,19 @@
     font-family: sans-serif;
     color: white;
     margin: auto;
-    width: 750px;
+    width: 80%;
+}
+
+p{
+  width: auto;
 }
 
 .topnav {
     position: fixed;
     top: 0;
-    overflow: hidden;
+    left: 15%;
+    border-style: solid;
+    border-color: #27d545;;
   }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -50,17 +56,18 @@
 
   .post{
     margin-bottom: 100px;
+    width: 750px;
+    
   }
 
-  .img{
-      float: left;
-      width: 20%;
-      margin-bottom: 100px;
+  .rsection{
+    background-color: 1F6FEB;
+    color: 21262D;
   }
   
   .main{
     float: right;
-    width: 55%;
+    width: auto;
     margin-right: 100px;
     margin-bottom: 100px;
   }
@@ -69,8 +76,9 @@
   .w3-round{
     width: 200px;
     height: auto;
-    padding: 10px;
-    box-shadow: 10px 10px #21262d;
+    box-shadow: 3px 3px 2px 2px #27D545;
+    float: left;
+    margin-right: 15px;
   }
 
   .footer {
@@ -81,3 +89,5 @@
     color: white;
     text-align: center;
   }
+
+  
