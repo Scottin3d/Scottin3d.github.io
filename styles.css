@@ -1,5 +1,5 @@
 *, *::before, *::after{
-    background-color: #21262d;
+    background-color: #21262D;
     font-style: normal;
     font-family: sans-serif;
     color: white;
@@ -56,20 +56,16 @@ p{
 
   .post{
     margin-bottom: 100px;
-    width: 750px;
-    
-  }
-
-  .rsection{
-    background-color: 1F6FEB;
-    color: 21262D;
   }
   
   .main{
-    float: right;
     width: auto;
     margin-right: 100px;
     margin-bottom: 100px;
+  }
+
+  .table{
+    width: auto;
   }
 
   /*In-text images*/
