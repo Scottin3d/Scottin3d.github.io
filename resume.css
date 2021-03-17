@@ -17,6 +17,9 @@ h1{
 
 h2{
   width: auto;
+  text-decoration: underline; 
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 h3{
   width: auto;
@@ -80,8 +83,18 @@ h4{
     margin-bottom: 100px;
   }
 
-  .table{
+  .resume-section{
     width: auto;
+  }
+
+  ul {
+    width: auto;
+    list-style-position: inside;
+    padding-left: 0;
+  }
+  li{
+    width: auto;
+    margin: 10px 0;
   }
 
   /*In-text images*/
